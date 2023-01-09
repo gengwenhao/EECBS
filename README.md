@@ -44,13 +44,13 @@ Then, you are able to run the code:
 ./eecbs -m random-32-32-20.map -a random-32-32-20-random-1.scen -o test.csv --outputPaths=paths.txt -k 50 -t 60 --suboptimality=1.2 
 ```
 
-- m: the map file from the MAPF benchmark
-- a: the scenario file from the MAPF benchmark
-- o: the output file that contains the search statistics
-- outputPaths: the output file that contains the paths 
-- k: the number of agents
-- t: the runtime limit
-- suboptimality: the suboptimality factor w
+- m: MAPF基准测试中的映射文件 the map file from the MAPF benchmark
+- a: 来自MAPF基准测试的场景文件 the scenario file from the MAPF benchmark
+- o: 包含搜索统计信息的输出文件 the output file that contains the search statistics
+- outputPaths: 包含路径的输出文件 the output file that contains the paths 
+- k: 代理数量 the number of agents
+- t: 运行时限制 the runtime limit
+- suboptimality: 次优因子w the suboptimality factor w
 
 You can find more details and explanations for all parameters with:
 ```

@@ -1,2 +1,4 @@
 .idea
 cmake-*
+paths.txt
+test.csv
